@@ -3,7 +3,7 @@
   <Class Name="TicTacToe.TicTacToeProcess">
     <Position X="3.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAABAAAAAAAAAAAgEAAAAAACAAIAAAA=</HashCode>
+      <HashCode>AAIEAAQAAAAAAAAEAASACAAABAAgEAAgAAgCBAIAAAA=</HashCode>
       <FileName>TicTacToeProcess.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

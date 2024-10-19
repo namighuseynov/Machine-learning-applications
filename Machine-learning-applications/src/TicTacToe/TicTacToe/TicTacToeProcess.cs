@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace TicTacToe
@@ -23,7 +24,7 @@ namespace TicTacToe
         public TicTacToeProcess(Form1 instance)
         {
             _myTurn = true;
-            _cells = new char[9];
+            _state = new char[9];
             _instance = instance;
         }
         #endregion
@@ -36,12 +37,14 @@ namespace TicTacToe
         /// <summary>
         /// Table cells
         /// </summary>
-        private char[] _cells;
+        private char[] _state;
         /// <summary>
         /// Instance of the form
         /// </summary>
         private Form1 _instance;
         private char _sign;
+        private int _winner = int.MinValue;
+        private bool _gameIsFinished = false;
         #endregion
 
         #region Methods
@@ -51,11 +54,12 @@ namespace TicTacToe
         /// <exception cref="System.NotImplementedException"></exception>
         public void Begin()
         {
-            for (var i = 0; i < _cells.Length; i++)
+            for (var i = 0; i < _state.Length; i++)
             {
-                _cells[i] = ' ';
+                _state[i] = ' ';
             }
             _myTurn = true;
+            _gameIsFinished = false;
         }
         /// <summary>
         /// End the process
@@ -64,55 +68,93 @@ namespace TicTacToe
 
         public void End()
         {
+            _gameIsFinished = true;
             _instance.EndGame();
         }
-        #endregion
-
-        private bool CheckGameState()
+        /// <summary>
+        /// Check is game finished
+        /// </summary>
+        /// <returns></returns>
+        public bool CheckGameState()
         {
-            if ((_cells[0] == _cells[1]) && (_cells[1] == _cells[2]) && (_cells[2] != ' ')) return true;
-            else if ((_cells[3] == _cells[4]) && (_cells[4] == _cells[5]) && (_cells[5] != ' ')) return true;
-            else if ((_cells[6] == _cells[7]) && (_cells[7] == _cells[8]) && (_cells[8] != ' ')) return true;
-            else if ((_cells[0] == _cells[3]) && (_cells[3] == _cells[6]) && (_cells[6] != ' ')) return true;
-            else if ((_cells[1] == _cells[4]) && (_cells[4] == _cells[7]) && (_cells[7] != ' ')) return true;
-            else if ((_cells[2] == _cells[5]) && (_cells[5] == _cells[8]) && (_cells[8] != ' ')) return true;
-            else if ((_cells[0] == _cells[4]) && (_cells[4] == _cells[8]) && (_cells[8] != ' ')) return true;
-            else if ((_cells[2] == _cells[4]) && (_cells[4] == _cells[6]) && (_cells[6] != ' ')) return true;
+            if (!_state.Contains(' '))
+            {
+                _winner = 0;
+                return true;
+            }
+
+            if ((_state[0] == _state[1]) && (_state[1] == _state[2]) && (_state[2] != ' ')) { _winner = _myTurn ? 1 : -1; return true; }
+            else if ((_state[3] == _state[4]) && (_state[4] == _state[5]) && (_state[5] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[6] == _state[7]) && (_state[7] == _state[8]) && (_state[8] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[0] == _state[3]) && (_state[3] == _state[6]) && (_state[6] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[1] == _state[4]) && (_state[4] == _state[7]) && (_state[7] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[2] == _state[5]) && (_state[5] == _state[8]) && (_state[8] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[0] == _state[4]) && (_state[4] == _state[8]) && (_state[8] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[2] == _state[4]) && (_state[4] == _state[6]) && (_state[6] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+
+
             else return false;
         }
-
+        /// <summary>
+        /// Select certain cell
+        /// </summary>
+        /// <param name="id"></param>
         public void SelectCell(int id)
         {
-            if (_cells[id] == ' ')
+            if (_state[id] == ' ')
             {
                 PrepareSign();
                 string cellName = "cell" + (id + 1).ToString();
                 Control cell = _instance.Controls.Find(cellName, true)[0];
                 cell.Text = _sign.ToString();
-                _cells[id] = _sign;
-
-                if (CheckGameState())
-                {
-                    End();
-                }
-                else
-                {
-                    _myTurn = !_myTurn;
-                }
-
-                
+                _state[id] = _sign;
+                _myTurn = !_myTurn;
             }
             else
             {
                 MessageBox.Show("this cell is filled!");
             }
-            
         }
-
+        /// <summary>
+        /// Prepare sign to play
+        /// </summary>
         public void PrepareSign()
         {
             if (_myTurn) { _sign = 'x'; }
             else { _sign = 'o'; }
         }
+
+        #endregion
+
+        #region Properties
+        /// <summary>
+        /// The state of the game
+        /// </summary>
+        public string State
+        {
+            get
+            {
+                return new string(_state);
+            }
+        }
+        public int Winner
+        {
+            get
+            {
+                return _winner;
+            }
+        }
+
+        public bool Finished
+        {
+            get
+            {
+                return _gameIsFinished;
+            }
+        }
+
+        #endregion
+
+
     }
 }
