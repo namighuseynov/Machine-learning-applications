@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Windows.Forms;
 
 
 namespace TicTacToe
@@ -16,21 +17,26 @@ namespace TicTacToe
         private string _lastState;
         private string modelFilePath;
 
-        public CoolAgent(string  name)
+        public CoolAgent(string  name, bool educated)
         {
-            _epsilon = 0.2f;
-            _alpha = 0.1f;
+            _epsilon = educated ? 0 : 0.2f;
+            _alpha = 0.2f;
             _gamma = 0.9f;
             modelFilePath = "qlearning_" + name + ".json";
             if (!LoadBrain())
             {
                 _qTable = new Dictionary<string, double[]>();
+                MessageBox.Show("new");
             }
         }
 
         public int TakeAction(TicTacToeProcess gameProcess)
         {
             string state = gameProcess.State;
+            if (!_qTable.ContainsKey(state))
+            {
+                _qTable[state] = new double[9];
+            }
             int desiredAction = -1;
             //Exploration or exploitation
             if (new Random().NextDouble() < _epsilon)
@@ -38,11 +44,7 @@ namespace TicTacToe
                 desiredAction = GetRandomAction(gameProcess);
             }
             else
-            {
-                if (!_qTable.ContainsKey(state))
-                {
-                    _qTable[state] = new double[9];
-                }
+            {      
                 double[] qValues = _qTable[state];
                 int[] availableActions = GetAvailableActions(gameProcess);
 
@@ -56,10 +58,18 @@ namespace TicTacToe
                         bestAction = action;
                     }
                 }
-                _lastAction = bestAction;
-                _lastState = state;
+                if (bestAction == -1)
+                {
+                    desiredAction = GetRandomAction(gameProcess);
+                }
+                else
+                {
+                    desiredAction = bestAction;
+                }
                 desiredAction = bestAction;
             }
+            _lastState = state;
+            _lastAction = desiredAction;
             return desiredAction;
         }
 
@@ -69,11 +79,12 @@ namespace TicTacToe
             var actions = new List<int>();
             for (var i = 0; i < state.Length; i++)
             {
-                if (state[i] == ' ')
+                if (state[i] == 'z')
                 {
                     actions.Add(i);
                 }
             }
+
             return actions.ToArray();
         }
 

@@ -26,7 +26,9 @@ namespace TicTacToe
             _myTurn = true;
             _state = new char[9];
             _instance = instance;
+            _winner = -100;
         }
+
         #endregion
 
         #region Fields
@@ -56,10 +58,11 @@ namespace TicTacToe
         {
             for (var i = 0; i < _state.Length; i++)
             {
-                _state[i] = ' ';
+                _state[i] = 'z';
             }
             _myTurn = true;
             _gameIsFinished = false;
+            _winner = -100;
         }
         /// <summary>
         /// End the process
@@ -69,6 +72,10 @@ namespace TicTacToe
         public void End()
         {
             _gameIsFinished = true;
+            for (var i = 0; i < _state.Length; i++)
+            {
+                _state[i] = 'z';
+            }
             _instance.EndGame();
         }
         /// <summary>
@@ -77,20 +84,20 @@ namespace TicTacToe
         /// <returns></returns>
         public bool CheckGameState()
         {
-            if (!_state.Contains(' '))
+            if (!_state.Contains('z'))
             {
                 _winner = 0;
                 return true;
             }
 
-            if ((_state[0] == _state[1]) && (_state[1] == _state[2]) && (_state[2] != ' ')) { _winner = _myTurn ? 1 : -1; return true; }
-            else if ((_state[3] == _state[4]) && (_state[4] == _state[5]) && (_state[5] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
-            else if ((_state[6] == _state[7]) && (_state[7] == _state[8]) && (_state[8] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
-            else if ((_state[0] == _state[3]) && (_state[3] == _state[6]) && (_state[6] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
-            else if ((_state[1] == _state[4]) && (_state[4] == _state[7]) && (_state[7] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
-            else if ((_state[2] == _state[5]) && (_state[5] == _state[8]) && (_state[8] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
-            else if ((_state[0] == _state[4]) && (_state[4] == _state[8]) && (_state[8] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
-            else if ((_state[2] == _state[4]) && (_state[4] == _state[6]) && (_state[6] != ' ')) { _winner = _myTurn? 1 : -1; return true; }
+            if ((_state[0] == _state[1]) && (_state[1] == _state[2]) && (_state[2] != 'z')) { _winner = _myTurn ? 1 : -1; return true; }
+            else if ((_state[3] == _state[4]) && (_state[4] == _state[5]) && (_state[5] != 'z')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[6] == _state[7]) && (_state[7] == _state[8]) && (_state[8] != 'z')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[0] == _state[3]) && (_state[3] == _state[6]) && (_state[6] != 'z')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[1] == _state[4]) && (_state[4] == _state[7]) && (_state[7] != 'z')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[2] == _state[5]) && (_state[5] == _state[8]) && (_state[8] != 'z')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[0] == _state[4]) && (_state[4] == _state[8]) && (_state[8] != 'z')) { _winner = _myTurn? 1 : -1; return true; }
+            else if ((_state[2] == _state[4]) && (_state[4] == _state[6]) && (_state[6] != 'z')) { _winner = _myTurn? 1 : -1; return true; }
 
 
             else return false;
@@ -101,7 +108,7 @@ namespace TicTacToe
         /// <param name="id"></param>
         public void SelectCell(int id)
         {
-            if (_state[id] == ' ')
+            if (_state[id] == 'z')
             {
                 PrepareSign();
                 string cellName = "cell" + (id + 1).ToString();

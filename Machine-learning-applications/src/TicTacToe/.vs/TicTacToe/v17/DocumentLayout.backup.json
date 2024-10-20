@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\tictactoe\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\tictactoe\\coolagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\coolagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\tictactoe\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\tictactoe\\tictactoeprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\tictactoeprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\tictactoe\\tictactoe\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|solutionrelative:tictactoe\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C2D19F3-4521-453F-ADF9-110A5034402C}|TicTacToe\\TicTacToe.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\tictactoe\\reinforcementlearningclassdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
@@ -34,24 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CoolAgent.cs",
-              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\CoolAgent.cs",
-              "RelativeDocumentMoniker": "TicTacToe\\CoolAgent.cs",
-              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\CoolAgent.cs",
-              "RelativeToolTip": "TicTacToe\\CoolAgent.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:33:57.72Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\Form1.cs",
               "RelativeDocumentMoniker": "TicTacToe\\Form1.cs",
@@ -59,6 +50,7 @@
               "RelativeToolTip": "TicTacToe\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T18:48:39.655Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
@@ -69,25 +61,55 @@
               "RelativeDocumentMoniker": "TicTacToe\\Form1.cs",
               "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\Form1.cs",
               "RelativeToolTip": "TicTacToe\\Form1.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAswBAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAWwBkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:12:07.549Z"
+              "WhenOpened": "2024-10-19T19:41:46.364Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "CoolAgent.cs",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\CoolAgent.cs",
+              "RelativeDocumentMoniker": "TicTacToe\\CoolAgent.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\CoolAgent.cs",
+              "RelativeToolTip": "TicTacToe\\CoolAgent.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwF0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T13:33:57.72Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\MainMenu.cs",
+              "RelativeDocumentMoniker": "TicTacToe\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\MainMenu.cs",
+              "RelativeToolTip": "TicTacToe\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:38:54.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TicTacToeProcess.cs",
               "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\TicTacToeProcess.cs",
               "RelativeDocumentMoniker": "TicTacToe\\TicTacToeProcess.cs",
               "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\TicTacToeProcess.cs",
               "RelativeToolTip": "TicTacToe\\TicTacToeProcess.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwG0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAjwGcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:49:49.442Z"
+              "WhenOpened": "2024-10-19T13:49:49.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ReinforcementLearningClassDiagram.cd",
               "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\ReinforcementLearningClassDiagram.cd",
               "RelativeDocumentMoniker": "TicTacToe\\ReinforcementLearningClassDiagram.cd",
@@ -98,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TicTacToeClassDiagram.cd",
               "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\TicTacToe\\TicTacToe\\TicTacToeClassDiagram.cd",
               "RelativeDocumentMoniker": "TicTacToe\\TicTacToeClassDiagram.cd",

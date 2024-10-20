@@ -8,3 +8,5 @@ C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-lear
 C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
 C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\TicTacToe\TicTacToe\obj\Debug\TicTacToe.MainMenu.resources
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\TicTacToe\TicTacToe\obj\Debug\TicTacToe.GameMenu.resources

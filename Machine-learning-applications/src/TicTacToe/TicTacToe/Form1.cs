@@ -5,15 +5,18 @@ namespace TicTacToe
 {
     public partial class Form1 : Form
     {
+        public bool LearningMode = false;
         int selectedCellId = 0;
         private TicTacToeProcess gameProcess;
         private CoolAgent agent;
-        private int episodes = 5000;
+        private int episodes = 100000;
         private int currentEpisode = 0;
+        public static Form1 Instance;
+        private Timer timer;
         public Form1()
         {
             InitializeComponent();
-            
+            Instance = this;
         }
 
         private void Move()
@@ -22,32 +25,34 @@ namespace TicTacToe
             {
                 int cellId = agent.GetRandomAction(gameProcess);
                 gameProcess.SelectCell(cellId);
-
+                int winner = -100;
+                int reward = -1;
+                string state = string.Empty;
                 if (gameProcess.CheckGameState())
                 {
-                    gameProcess.End();
+                    winner = gameProcess.Winner;
+                    state = gameProcess.State;
+
+                    if (winner == 0) { reward = 0; }
+                    else if (winner == 1) { reward = 100; }
+                    else if (winner == -1) { reward = -100; }
+                    agent.UpdateQTable(gameProcess, reward);
                 }
                 else
                 {
                     int action = agent.TakeAction(gameProcess);
                     gameProcess.SelectCell(action);
+                    agent.UpdateQTable(gameProcess, reward);
                     if (gameProcess.CheckGameState())
                     {
-                        gameProcess.End();
-                    }
-                }
+                        winner = gameProcess.Winner;
+                        state = gameProcess.State;
 
-                if (gameProcess.Winner == 1)
-                {
-                    agent.UpdateQTable(gameProcess, 1);
-                }
-                if (gameProcess.Winner == 0)
-                {
-                    agent.UpdateQTable(gameProcess, 0);
-                }
-                if (gameProcess.Winner == -1)
-                {
-                    agent.UpdateQTable(gameProcess, -1);
+                        if (winner == 0) { reward = 0; }
+                        else if (winner == 1) { reward = 100; }
+                        else if (winner == -1) { reward = -100; }
+                        agent.UpdateQTable(gameProcess, reward);
+                    }
                 }
             }
             agent.SaveBrain();
@@ -56,7 +61,7 @@ namespace TicTacToe
 
         private void Initialize()
         {
-            agent = new CoolAgent("model1");
+            agent = new CoolAgent("model1", !LearningMode);
         }
 
         private void SelectedCellHandler(object sender, EventArgs e)
@@ -78,25 +83,23 @@ namespace TicTacToe
                 }
             }
 
-            if (gameProcess.Winner == 1)
-            {
-                agent.UpdateQTable(gameProcess, 1);
-            }
-            if (gameProcess.Winner == 0)
-            {
-                agent.UpdateQTable(gameProcess, 0);
-            }
-            if (gameProcess.Winner == -1)
-            {
-                agent.UpdateQTable(gameProcess, -1);
-            }
         }
 
         public void StartGame(object sender, EventArgs e)
         {
             button9.Visible = false;
             BeginGame();
-            Move();
+
+            if (LearningMode)
+            {
+                //timer = new Timer();
+                //timer.Tick += new EventHandler(Move);
+                //timer.Interval = 5000;
+                //timer.Start();
+
+                Move();
+            }
+
         }
 
         private void BeginGame()
@@ -117,12 +120,21 @@ namespace TicTacToe
             {
                 cell.Text = string.Empty;
             }
-            //MessageBox.Show("winner is :" + gameProcess.Winner.ToString());
-
-            currentEpisode++;
-            if (currentEpisode < episodes)
+            if (LearningMode)
             {
-                BeginGame();
+                currentEpisode++;
+                if (currentEpisode < episodes)
+                {
+                    BeginGame();
+                }
+            }
+        }
+
+        public MainMenu MainMenuInterface
+        {
+            get
+            {
+                return mainMenu1;
             }
         }
     }
