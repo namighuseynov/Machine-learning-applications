@@ -1,0 +1,13 @@
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.csproj.AssemblyReference.cache
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.MainMenu.resources
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.TrainingConfigurator.resources
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.LearningProcess.resources

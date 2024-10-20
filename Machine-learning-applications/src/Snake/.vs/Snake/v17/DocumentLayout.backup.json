@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\snake\\snake\\trainingconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\trainingconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\snake\\snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\snake\\snake\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\snake\\snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\snake\\snake\\learningprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\learningprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\snake\\snake\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|c:\\users\\namig\\documents\\namigdev\\git\\machine-learning-applications\\machine-learning-applications\\src\\snake\\snake\\trainingconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\trainingconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LearningProcess.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\LearningProcess.cs",
+              "RelativeDocumentMoniker": "Snake\\LearningProcess.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\LearningProcess.cs [Design]",
+              "RelativeToolTip": "Snake\\LearningProcess.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T08:41:54.02Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\Form1.cs",
+              "RelativeDocumentMoniker": "Snake\\Form1.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\Form1.cs",
+              "RelativeToolTip": "Snake\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T08:01:29.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Snake\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\MainMenu.cs",
+              "RelativeToolTip": "Snake\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T08:01:06.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\Form1.cs",
+              "RelativeDocumentMoniker": "Snake\\Form1.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\Form1.cs [Design]",
+              "RelativeToolTip": "Snake\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:36:38.873Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrainingConfigurator.cs",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\TrainingConfigurator.cs",
+              "RelativeDocumentMoniker": "Snake\\TrainingConfigurator.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\TrainingConfigurator.cs",
+              "RelativeToolTip": "Snake\\TrainingConfigurator.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T08:13:43.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrainingConfigurator.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\TrainingConfigurator.cs",
+              "RelativeDocumentMoniker": "Snake\\TrainingConfigurator.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\TrainingConfigurator.cs [Design]",
+              "RelativeToolTip": "Snake\\TrainingConfigurator.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:46:12.777Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Snake\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\MainMenu.cs [Design]",
+              "RelativeToolTip": "Snake\\MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:40:05.734Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
