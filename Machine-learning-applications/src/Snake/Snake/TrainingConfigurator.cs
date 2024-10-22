@@ -32,7 +32,7 @@ namespace Snake
                 gamma,
                 continueTraining
             );
-            
+            Form1.Instance.LearningProcessUI.Set(config);
             Form1.Instance.LearningProcessUI.Visible = true;
             Visible = false;
 

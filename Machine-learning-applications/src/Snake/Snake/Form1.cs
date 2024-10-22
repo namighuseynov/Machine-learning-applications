@@ -1,10 +1,12 @@
-﻿using System.Windows.Forms;
+﻿using System.Drawing;
+using System.Windows.Forms;
 
 namespace Snake
 {
     public partial class Form1 : Form
     {
         public static Form1 Instance;
+        
         public Form1()
         {
             InitializeComponent();

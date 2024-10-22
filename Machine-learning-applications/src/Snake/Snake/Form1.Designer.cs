@@ -28,10 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.learningProcess1 = new Snake.LearningProcess();
             this.mainMenu1 = new Snake.MainMenu();
             this.trainingConfigurator1 = new Snake.TrainingConfigurator();
-            this.learningProcess1 = new Snake.LearningProcess();
             this.SuspendLayout();
+            // 
+            // learningProcess1
+            // 
+            this.learningProcess1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.learningProcess1.Location = new System.Drawing.Point(0, 0);
+            this.learningProcess1.Name = "learningProcess1";
+            this.learningProcess1.Size = new System.Drawing.Size(590, 590);
+            this.learningProcess1.TabIndex = 2;
+            this.learningProcess1.Visible = false;
             // 
             // mainMenu1
             // 
@@ -47,15 +56,6 @@
             this.trainingConfigurator1.Size = new System.Drawing.Size(750, 750);
             this.trainingConfigurator1.TabIndex = 1;
             this.trainingConfigurator1.Visible = false;
-            // 
-            // learningProcess1
-            // 
-            this.learningProcess1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.learningProcess1.Location = new System.Drawing.Point(81, 67);
-            this.learningProcess1.Name = "learningProcess1";
-            this.learningProcess1.Size = new System.Drawing.Size(600, 600);
-            this.learningProcess1.TabIndex = 2;
-            this.learningProcess1.Visible = false;
             // 
             // Form1
             // 

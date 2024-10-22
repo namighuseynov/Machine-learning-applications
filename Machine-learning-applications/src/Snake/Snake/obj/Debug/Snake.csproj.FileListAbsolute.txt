@@ -11,3 +11,6 @@ C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-lear
 C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.MainMenu.resources
 C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.TrainingConfigurator.resources
 C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.LearningProcess.resources
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Snake\Snake\obj\Debug\Snake.csproj.Up2Date
