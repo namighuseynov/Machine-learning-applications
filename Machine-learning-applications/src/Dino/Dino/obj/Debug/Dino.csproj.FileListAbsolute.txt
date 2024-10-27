@@ -1,0 +1,9 @@
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\bin\Debug\Dino.exe.config
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\bin\Debug\Dino.exe
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\bin\Debug\Dino.pdb
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\obj\Debug\Dino.csproj.AssemblyReference.cache
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\obj\Debug\Dino.Properties.Resources.resources
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\obj\Debug\Dino.csproj.GenerateResource.cache
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\obj\Debug\Dino.csproj.CoreCompileInputs.cache
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\obj\Debug\Dino.exe
+C:\Users\Namig\Documents\NamigDev\Git\Machine-learning-applications\Machine-learning-applications\src\Dino\Dino\obj\Debug\Dino.pdb

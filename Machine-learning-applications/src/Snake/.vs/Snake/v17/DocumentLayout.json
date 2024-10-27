@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\learningprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\snake\\snakeagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\snakeagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\snake\\learningprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\learningprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\snake\\snakeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\snakeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\snake\\snakeagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|solutionrelative:snake\\snakeagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1D471F2-7269-4172-8110-C02B720C3A40}|Snake\\Snake.csproj|C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\snake\\trainingconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LearningProcess.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\LearningProcess.cs",
               "RelativeDocumentMoniker": "Snake\\LearningProcess.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SnakeObject.cs",
               "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\SnakeObject.cs",
               "RelativeDocumentMoniker": "Snake\\SnakeObject.cs",
@@ -80,15 +80,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SnakeAgent.cs",
               "DocumentMoniker": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\SnakeAgent.cs",
               "RelativeDocumentMoniker": "Snake\\SnakeAgent.cs",
               "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\SnakeAgent.cs",
               "RelativeToolTip": "Snake\\SnakeAgent.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwFQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:54:32.478Z"
+              "WhenOpened": "2024-10-20T11:54:32.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,7 +99,7 @@
               "RelativeDocumentMoniker": "Snake\\LearningProcess.cs",
               "ToolTip": "C:\\Users\\Namig\\Documents\\NamigDev\\Git\\Machine-learning-applications\\Machine-learning-applications\\src\\Snake\\Snake\\LearningProcess.cs",
               "RelativeToolTip": "Snake\\LearningProcess.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwEgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T10:28:31.336Z",
               "EditorCaption": ""
